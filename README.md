@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Astar Pets Interview Test
 =========================
 
@@ -43,3 +44,6 @@ Please produce a document explaining how you might do this, including any restri
 Note that the important thing is your ideas and thinking and how you get them across, not the presentation / formatting of the document, so please don't worry unduly about this.
 
 Any questions about either part of this assignment, please don't hesitate to ask.  Good luck!
+=======
+# MarketplaceInterview
+>>>>>>> 18620f3160faddf07e8aa29f6edba46bbfd74290
