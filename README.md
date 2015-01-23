@@ -1,16 +1,15 @@
-<<<<<<< HEAD
-Astar Pets Interview Test
+Reebonz Marketplace Interview Test
 =========================
 
 Part 1 - Coding
 ---------------
 **Setup:**
 
-Open AstarPets.Interview\AstarPets.Interview.sln
+Open Reebonz.Interview\Reebonz.Interview.sln
 
 **Scenario:**
 
-The existing AstarPets.Interview shopping cart (hit F5 in Visual Studio to see it) allows you to add and remove items. As you add each item you can set its Shipping method.
+The existing Reebonz.Interview shopping cart (hit F5 in Visual Studio to see it) allows you to add and remove items. As you add each item you can set its Shipping method.
 The available shipping options are stored in App_Data\Shipping.xml.
 
 **Objectives:**
@@ -44,6 +43,3 @@ Please produce a document explaining how you might do this, including any restri
 Note that the important thing is your ideas and thinking and how you get them across, not the presentation / formatting of the document, so please don't worry unduly about this.
 
 Any questions about either part of this assignment, please don't hesitate to ask.  Good luck!
-=======
-# MarketplaceInterview
->>>>>>> 18620f3160faddf07e8aa29f6edba46bbfd74290
