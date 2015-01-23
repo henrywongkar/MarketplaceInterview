@@ -5,7 +5,6 @@ using Marketplace.Interview.Business.Core;
 using Marketplace.Interview.Web;
 using Marketplace.Interview.Web.IoC;
 using NUnit.Framework;
-using Marketplace.Interview.Business.Core;
 using Marketplace.Interview.Business.Shipping;
 
 namespace Marketplace.Interview.Tests
@@ -17,16 +16,25 @@ namespace Marketplace.Interview.Tests
         public void CreateSampleShippingOptions()
         {
             var shippings = new Dictionary<string, ShippingBase>
-                                {
-                                    {"FlatRate", new FlatRateShipping{FlatRate = 1.5m}},
-                                    {"PerRegion", new PerRegionShipping{PerRegionCosts = 
-                                    new List<RegionShippingCost>
-                                        {
-                                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.UK, Amount = .5m},
-                                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.Europe, Amount = 1m},
-                                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.RestOfTheWorld, Amount = 2m},
-                                        }}}
-                                };
+            {
+                {
+                    "FlatRate", new FlatRateShipping
+                    {
+                        FlatRate = 1.5m
+                    }
+                },
+                {
+                    "PerRegion", new PerRegionShipping
+                    {
+                        PerRegionCosts = new List<RegionShippingCost>
+                        {
+                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.UK, Amount = .5m},
+                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.Europe, Amount = 1m},
+                            new RegionShippingCost{DestinationRegion = RegionShippingCost.Regions.RestOfTheWorld, Amount = 2m},
+                        }
+                    }
+                }
+            };
 
             var ser = SerializationHelper.DataContractSerialize(shippings);
 
@@ -34,7 +42,6 @@ namespace Marketplace.Interview.Tests
             {
                 fileWriter.Write(ser);
             }
-
         }
 
         [Test]

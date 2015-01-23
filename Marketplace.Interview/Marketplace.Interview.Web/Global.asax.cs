@@ -12,7 +12,7 @@ namespace Marketplace.Interview.Web
     {
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
         {
-            return ObjectFactory.GetObject<IController>(controllerType);
+            return controllerType == null ? null : ObjectFactory.GetObject<IController>(controllerType);
         }
 
         public override void ReleaseController(IController controller)

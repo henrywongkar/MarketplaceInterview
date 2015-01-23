@@ -1,11 +1,11 @@
-<ArrayOfKeyValueOfstringShippingBase9RZ2PGVd xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-    <KeyValueOfstringShippingBase9RZ2PGVd>
+<ArrayOfKeyValueOfstringShippingBaseLIZpudIg xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <KeyValueOfstringShippingBaseLIZpudIg>
         <Key>FlatRate</Key>
         <Value i:type="a:FlatRateShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
             <a:FlatRate>1.5</a:FlatRate>
         </Value>
-    </KeyValueOfstringShippingBase9RZ2PGVd>
-    <KeyValueOfstringShippingBase9RZ2PGVd>
+    </KeyValueOfstringShippingBaseLIZpudIg>
+    <KeyValueOfstringShippingBaseLIZpudIg>
         <Key>PerRegion</Key>
         <Value i:type="a:PerRegionShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
             <a:PerRegionCosts>
@@ -23,5 +23,5 @@
                 </a:RegionShippingCost>
             </a:PerRegionCosts>
         </Value>
-    </KeyValueOfstringShippingBase9RZ2PGVd>
-</ArrayOfKeyValueOfstringShippingBase9RZ2PGVd>
+    </KeyValueOfstringShippingBaseLIZpudIg>
+</ArrayOfKeyValueOfstringShippingBaseLIZpudIg>
