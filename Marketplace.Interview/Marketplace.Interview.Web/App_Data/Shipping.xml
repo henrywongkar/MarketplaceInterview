@@ -5,23 +5,42 @@
             <a:FlatRate>1.5</a:FlatRate>
         </Value>
     </KeyValueOfstringShippingBaseLIZpudIg>
-    <KeyValueOfstringShippingBaseLIZpudIg>
-        <Key>PerRegion</Key>
-        <Value i:type="a:PerRegionShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
-            <a:PerRegionCosts>
-                <a:RegionShippingCost>
-                    <a:Amount>0.5</a:Amount>
-                    <a:DestinationRegion>UK</a:DestinationRegion>
-                </a:RegionShippingCost>
-                <a:RegionShippingCost>
-                    <a:Amount>1</a:Amount>
-                    <a:DestinationRegion>Europe</a:DestinationRegion>
-                </a:RegionShippingCost>
-                <a:RegionShippingCost>
-                    <a:Amount>2</a:Amount>
-                    <a:DestinationRegion>RestOfTheWorld</a:DestinationRegion>
-                </a:RegionShippingCost>
-            </a:PerRegionCosts>
-        </Value>
-    </KeyValueOfstringShippingBaseLIZpudIg>
+  <KeyValueOfstringShippingBaseLIZpudIg>
+    <Key>PerRegion</Key>
+    <Value i:type="a:PerRegionShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
+      <a:PerRegionCosts>
+        <a:RegionShippingCost>
+          <a:Amount>0.5</a:Amount>
+          <a:DestinationRegion>UK</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>1</a:Amount>
+          <a:DestinationRegion>Europe</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>2</a:Amount>
+          <a:DestinationRegion>RestOfTheWorld</a:DestinationRegion>
+        </a:RegionShippingCost>
+      </a:PerRegionCosts>
+    </Value>
+  </KeyValueOfstringShippingBaseLIZpudIg>
+  <KeyValueOfstringShippingBaseLIZpudIg>
+    <Key>PerRegionExtended</Key>
+    <Value i:type="a:PerRegionExtendedShipping" xmlns:a="http://schemas.datacontract.org/2004/07/Marketplace.Interview.Business.Shipping">
+      <a:PerRegionExtendedCosts>
+        <a:RegionShippingCost>
+          <a:Amount>0.5</a:Amount>
+          <a:DestinationRegion>UK</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>1</a:Amount>
+          <a:DestinationRegion>Europe</a:DestinationRegion>
+        </a:RegionShippingCost>
+        <a:RegionShippingCost>
+          <a:Amount>2</a:Amount>
+          <a:DestinationRegion>RestOfTheWorld</a:DestinationRegion>
+        </a:RegionShippingCost>
+      </a:PerRegionExtendedCosts>
+    </Value>
+  </KeyValueOfstringShippingBaseLIZpudIg>
 </ArrayOfKeyValueOfstringShippingBaseLIZpudIg>

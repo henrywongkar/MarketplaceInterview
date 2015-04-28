@@ -7,7 +7,7 @@ namespace Marketplace.Interview.Business.Basket
 {
     public abstract class BasketOperationBase
     {
-        private static readonly string file = Path.Combine(Environment.GetEnvironmentVariable("temp"), "basket.xml");
+        private static readonly string file = Path.Combine(Environment.GetEnvironmentVariable("temp"), "basket1.xml");
 
         protected Basket GetBasket()
         {

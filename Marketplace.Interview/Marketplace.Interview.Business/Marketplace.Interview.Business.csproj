@@ -66,6 +66,7 @@
     <Compile Include="Basket\IShippingCalculator.cs" />
     <Compile Include="Basket\RemoveFromBasketCommand.cs" />
     <Compile Include="Shipping\FlatRateShipping.cs" />
+    <Compile Include="Shipping\PerRegionExtendedShipping.cs" />
     <Compile Include="Shipping\PerRegionShipping.cs" />
     <Compile Include="Shipping\RegionShippingCost.cs" />
     <Compile Include="Shipping\ShippingBase.cs" />
