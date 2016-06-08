@@ -14,7 +14,7 @@ The available shipping options are stored in App_Data\Shipping.xml.
 
 **Objectives:**
 
-1. Add a new Shipping Option to the application code. The Shipping Option should behave the same as the PerRegion Option except that if there is at least one other item in the basket with the same Shipping Option and the same Supplier and Region, 50p should be deducted from the shipping. Keep in mind the ability to change the parameters.
+1. Add a new Shipping Option to the application code. The Shipping Option should behave the same as the PerRegion Option except that if there is at least one other item in the basket with the same Shipping Option and the same Supplier and Region, 50 pence should be deducted from the shipping. Keep in mind the ability to change the parameters.
 2. Write a unit test for the new code.
 3. Form some opinions about how the code has been put together for discussion. Note that we are not looking for any particular criticisms (there are no "trick" mistakes, though there may be some genuine ones!).
 4. When done, get the code back to us.  Bonus points for a pull request, but if you're new to DVCS don't worry - just zip up the code and email it.
@@ -28,6 +28,7 @@ There is no time limit, but hopefully it shouldn't take you longer than about an
 1. App_Data\Shipping.xml is created with the CreateSampleData unit test. You should add to this to create your extended version of this file.
 2. Don't forget to add any new Shipping types to the KnownTypes method on ShippingBase.
 3. The Controller action used for the page is the Index action on the HomeController.
+4. All prices are in UK £ Pound currency. (1 pound equals 100 pence)
 
 
 Part 2 - Design
